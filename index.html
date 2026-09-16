@@ -31,7 +31,6 @@
 
 <script src="works.js"></script>
 <script>
-/* 渲染逻辑。内容都来自 works.js，正常情况不需要改这里。 */
 (function () {
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
@@ -60,7 +59,6 @@
     if (ls.length) {
       h += '<div class="toplinks">';
       for (var i = 0; i < ls.length; i++) {
-        /* 第一个当作主要按钮，其余次要 */
         h += anchor(ls[i].label, ls[i].url, i === 0 ? "primary" : "");
       }
       h += "</div>";

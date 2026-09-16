@@ -1,18 +1,12 @@
-/* 澄江子 · 作品集
- * ==================================================================
- * 配色全部收在 :root 里，想换主题只改这几个变量。
- * 布局是单列居中，作品卡片内部左右两栏，窄屏自动堆叠。
- * ================================================================== */
-
 :root{
-  --bg:        #0f1116;   /* 页面底色 */
-  --surface:   #171a21;   /* 卡片底色 */
-  --line:      #272d39;   /* 常规分隔线 */
-  --line-2:    #333a48;   /* 按钮与图片描边 */
-  --text:      #e9ecf1;   /* 主文字 */
-  --text-2:    #9aa3b2;   /* 次要文字 */
-  --text-3:    #697182;   /* 辅助说明 */
-  --accent:    #5eead4;   /* 强调色 */
+  --bg:        #0f1116;
+  --surface:   #171a21;
+  --line:      #272d39;
+  --line-2:    #333a48;
+  --text:      #e9ecf1;
+  --text-2:    #9aa3b2;
+  --text-3:    #697182;
+  --accent:    #5eead4;
   --accent-soft: rgba(94,234,212,.10);
   --accent-line: rgba(94,234,212,.28);
 }
@@ -32,7 +26,6 @@ body{
 a{color:inherit}
 .wrap{max-width:960px;margin:0 auto;padding:0 24px}
 
-/* ---------------- 头部 ---------------- */
 .masthead{padding:76px 0 44px}
 .masthead h1{font-size:34px;font-weight:600;letter-spacing:.01em;line-height:1.3}
 .masthead .real{font-size:14px;color:var(--text-3);margin-top:7px}
@@ -40,7 +33,6 @@ a{color:inherit}
 .masthead .intro{font-size:15px;color:var(--text-2);margin-top:12px;max-width:760px}
 .masthead .toplinks{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
 
-/* ---------------- 作品卡片 ---------------- */
 #works{padding-bottom:8px}
 
 .work{
@@ -62,7 +54,6 @@ a{color:inherit}
 
 .work-body{display:grid;grid-template-columns:384px 1fr;gap:32px;margin-top:22px;align-items:start}
 
-/* 截图 */
 .shots{display:flex;gap:10px}
 .shot{flex:1 1 0;min-width:0}
 .shot img{
@@ -71,7 +62,6 @@ a{color:inherit}
 }
 .shot figcaption{font-size:11.5px;color:var(--text-3);margin-top:7px;text-align:center;line-height:1.45}
 
-/* 文字侧 */
 .work-meta{font-size:13px;color:var(--text-3)}
 .work-meta .kind{color:var(--text-2)}
 .work-meta .role{margin-top:3px}
@@ -101,13 +91,11 @@ a{color:inherit}
 .links a:hover, .toplinks a:hover{border-color:var(--accent);color:var(--accent)}
 .links a.primary, .toplinks a.primary{background:var(--accent-soft);border-color:var(--accent-line);color:var(--accent)}
 
-/* ---------------- 页脚 ---------------- */
 footer{border-top:1px solid var(--line);margin-top:24px;padding:28px 0 64px;font-size:12.5px;color:var(--text-3);line-height:1.85}
 footer .row{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:14px;font-size:13.5px}
 footer a{color:var(--text-2);text-decoration:none}
 footer a:hover{color:var(--accent)}
 
-/* ---------------- 窄屏 ---------------- */
 @media(max-width:820px){
   .masthead{padding:56px 0 34px}
   .masthead h1{font-size:28px}
