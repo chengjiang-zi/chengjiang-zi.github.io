@@ -48,7 +48,9 @@ python -m http.server 8000
 
 ## 上线前检查
 
-- [ ] `works.js` 里 `PROFILE.contact` 换成真邮箱
-- [ ] 仓库转成公开（免费账号的 Pages 只对公开仓库开放）
+- [x] `works.js` 里 `PROFILE.contact` 已填 `achengjiangzi@qq.com`
+- [x] 仓库为公开（免费账号的 Pages 只对公开仓库开放）
 - [ ] 页脚那行学习性质声明留着。GitHub 的条款要求这类复刻性质的练习项目必须写明
 - [ ] 截图建议用 release 版重拍，不要带调试按钮
+
+`PROFILE.realName` 留空，页面上就不会出现真名。想放再填。
