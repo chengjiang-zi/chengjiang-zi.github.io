@@ -27,7 +27,7 @@ const PROFILE = {
   realName: "",                      /* 真名。留空就不会显示在页面上，想放就填进来 */
   tagline: "游戏系统与数值设计",
   intro: "玩法、数值、联机、美术、音乐，一个人做完，再给它配上一套会自己找错的自动化检查。下面是我的作品。",
-  contact: "",                       /* 联系方式。填上邮箱才会在页面上出现按钮 */
+  contact: "achengjiangzi@qq.com",   /* 联系方式。填上邮箱才会在页面上出现按钮 */
   links: [
     { label: "GitHub", url: "https://github.com/chengjiang-zi" }
   ]
