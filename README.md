@@ -34,11 +34,17 @@ python -m http.server 8000
 
 `style.css` 顶部的 `:root` 里改。`--accent` 是强调色，`--bg` 是页面底色，`--surface` 是卡片底色。
 
-## 发布
+## 上线与下线
 
-仓库名必须是 `chengjiang-zi.github.io`，一字不差，默认地址才会生效。
+仓库名必须是 `chengjiang-zi.github.io`，一字不差，默认地址才会生效。**这个名字不要改**，改了就不再是 User Site，重新上线时还得改回来。
 
-Settings → Pages → Source 选 `Deploy from a branch`，branch 选仓库实际的分支（`main` 或 `master`），目录选 `/ (root)`，保存。等一两分钟，地址是 https://chengjiang-zi.github.io
+**上线**：Settings → Pages → Source 选 `Deploy from a branch`，Branch 选 `main`，目录选 `/ (root)`，Save。等一两分钟，地址是 https://chengjiang-zi.github.io
+
+**下线**：同一个页面点「取消发布该网站」（Unpublish site）。站点几分钟内变 404，文件和仓库名都保留。
+
+**重新上线**：回同一个页面，Source 重新选 `Deploy from a branch`，Branch 选 `main`，Save。不需要重建仓库，也不需要重推代码。
+
+**注意**：免费账号的 Pages 只对公开仓库开放。如果仓库被转成了 Private，重新上线前要先转回 Public。
 
 ## 上线前检查
 
