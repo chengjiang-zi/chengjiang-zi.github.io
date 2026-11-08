@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="13" fill="#8b2f3a"/>
-  <rect x="6.5" y="6.5" width="51" height="51" rx="7.5" fill="none" stroke="#f6f3ec" stroke-width="1.6" opacity="0.45"/>
-  <text x="32" y="45" text-anchor="middle" fill="#f6f3ec"
-        font-family="Georgia,'Songti SC','Source Han Serif SC',SimSun,serif" font-size="36">澄</text>
-</svg>
